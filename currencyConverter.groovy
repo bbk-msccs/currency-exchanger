@@ -18,13 +18,13 @@ while (!finished) {
 	  print "How many pounds would you like to convert? ";
 	  double pounds = Double.parseDouble(System.console().readLine());
 	  double euro   = pounds * euroOverPoundRatio;
-	  println "GBP" + pounds + " will give you " + euro + "EUR";
+	  println "£" + pounds + " will give you " + euro + "€";
 	  break;
     case 2: 
 	  print "How many euro would you like to convert? ";
 	  double euro   = Double.parseDouble(System.console().readLine());
 	  double pounds = euro * poundOverEuroRatio;
-	  println euro + "EUR will give you GBP" + pounds;
+	  println euro + "€ will give you £" + pounds;
 	  break;
     case 0: 
 	  finished = true;
